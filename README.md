@@ -1,4 +1,4 @@
-# Spotify Listening History Analysis
+# Spotify Listening Habits Analysis
 
 ## Table of Contents
 

@@ -2,16 +2,22 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#-project-overview)
 - [Features](#features)
 - [Data Source](#data-source)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Analysis Details](#analysis-details)
-- [Results & Visualizations](#results--visualizations)
-- [Dependencies](#dependencies)
+- [Features / Key Deliverables](#-features--key-deliverables)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Results & Insights](#-results--insights)
+    - [Hypothesis 1: Weekend vs. Weekday Listening](#-hypothesis-1-weekend-vs-weekday-listening)
+    - [Hypothesis 2: Shuffle Mode & Track Skipping](#-hypothesis-2-shuffle-mode--track-skipping)
+    - [Hypothesis 3: Mobile vs. Desktop Listening Duration](#-hypothesis-3-mobile-vs-desktop-listening-duration)
+- [Challenges and Limitations](#challenges-and-limitations)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -147,9 +153,9 @@ The analysis uncovered several notable patterns in Spotify listening habits:
 - **Platform Categorization:** "Desktop" vs. "mobile" grouping is based on observed data; other devices (e.g., smart speakers) may have unique usage patterns not fully explored.
 
 
-## Contributing
+## 🤝 Acknowledgements
 
-Contributions are welcome! Please open issues or submit pull requests for improvements or new features.
+Help was received throughout this project from various sources. Notably, ChatGPT 4.1 was used to assist with troubleshooting errors, refining code, and providing different insights during the analysis and development process.
 
 ## License
 

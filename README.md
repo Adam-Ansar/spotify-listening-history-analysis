@@ -85,20 +85,20 @@ This analysis is derived from a dataset from kaggle. The link to the dataset is 
 - **Jupyter Notebook:** Interactive and reproducible analysis
 
 ## 📁 Project Structure
-
 ```
 spotify-listening-history-analysis/
 ├── data/
-│   └── StreamingHistory.json
+│   └── StreamingHistory.json         # Raw Spotify history data
 ├── notebooks/
-│   └── spotify_analysis.ipynb
+│   └── spotify_analysis.ipynb        # Main analysis notebook
 ├── src/
-│   ├── data_cleaning.py
-│   ├── analysis.py
-│   └── visualization.py
-├── requirements.txt
-├── README.md
-└── spotify_history_cleaned.csv
+│   ├── data_cleaning.py              # Data cleaning/preprocessing scripts
+│   ├── analysis.py                   # Hypothesis testing and analysis scripts
+│   └── visualization.py              # Plotting and visualization scripts
+├── requirements.txt                  # Python dependencies
+├── spotify_history_cleaned.csv       # Cleaned/exported dataset
+├── Spotify_analysis_dashboard.pbix   # Power BI dashboard file
+└── README.md                        # Project documentation
 ```
 
 - `data/`: Contains raw Spotify history files.
@@ -152,7 +152,7 @@ The analysis uncovered several notable patterns in Spotify listening habits:
 
 You can download the Power BI Desktop file (`.pbix`) from this repository to interact with the dashboard:
 
-[Download Spotify Analysis Dashboard (.pbix)](https://github.com/adam-ansar/spotify-listening-history-analysis/raw/main/spotify_analysis_dashboard.pbix)
+[Download Spotify Analysis Dashboard (.pbix)](https://github.com/Adam-Ansar/spotify-listening-history-analysis/blob/main/Spotify_analysis_dashboard.pbix)
 
 **Note:** You will need Power BI Desktop installed to open this file.
 

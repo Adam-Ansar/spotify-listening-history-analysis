@@ -147,6 +147,15 @@ The analysis uncovered several notable patterns in Spotify listening habits:
 
 ---
 
+
+### View the Interactive Dashboard
+
+You can download the Power BI Desktop file (`.pbix`) from this repository to interact with the dashboard:
+
+[Download Spotify Analysis Dashboard (.pbix)](https://github.com/adam-ansar/spotify-listening-history-analysis/raw/main/spotify_analysis_dashboard.pbix)
+
+**Note:** You will need Power BI Desktop installed to open this file.
+
 🚧 Challenges and Limitations
 - **Data Source Specificity:** Analysis is based on a single user's Spotify history; results may not generalize to all users.
 - **"ms_played" Interpretation:** The `ms_played` column measures listening time, but very low values (e.g., 0ms) may reflect previews or glitches, affecting per-track averages.
